@@ -12,6 +12,7 @@
 	<groupId>com.cognizant</groupId>
 	<artifactId>VendorModule</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
 	<name>VendorModule</name>
 	<description>Vendor module impl</description>
 	<properties>
