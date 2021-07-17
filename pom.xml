@@ -12,7 +12,6 @@
 	<groupId>com.cognizant</groupId>
 	<artifactId>VendorModule</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
 	<name>VendorModule</name>
 	<description>Vendor module impl</description>
 	<properties>
@@ -39,12 +38,7 @@
 			<artifactId>springdoc-openapi-ui</artifactId>
 			<version>1.5.6</version>
 		</dependency>
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-			<version>2.2.7.RELEASE</version>
-		</dependency>
-
+		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
@@ -91,6 +85,10 @@
 			<artifactId>springfox-swagger-ui</artifactId>
 			<version>2.6.1</version>
 			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
 	</dependencies>
 

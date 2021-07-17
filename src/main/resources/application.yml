@@ -23,7 +23,7 @@ spring:
     name: vendor-service
   
 server:
-  port: 8003
+  port: 5001
 
 #eureka:
 #  client:
